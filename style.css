@@ -2,8 +2,81 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Salsa', cursive;
+    font-family: 'Crete Round', serif;         
+    /* font-family: 'Salsa', cursive; */
+    /* font-family: 'Ubuntu', sans-serif;  */
+    color: #402B3A;
+    color: #3E001F;
 }
-body{
-    background-color: #FF9BD2;
+body {
+    background-image: linear-gradient(90deg, #ff81c6, #ffa1d5);
 }
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(180deg, #D63484 0%, #D63484 90%, transparent 100%);
+    margin-bottom: 50px;
+}
+
+
+ul{
+    display: flex;
+    justify-content: center;
+    
+}
+ul > li{
+    list-style: none;
+    padding: 20px 10px;
+    font-size: 24px;
+    margin: 0px 15px;
+    cursor: pointer;
+    transition: linear 100ms;
+}
+ul > li:hover{
+    transform: scale(1.2);
+}
+.land{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+.image-land > img{
+    border-radius: 5%;
+    height: 570px;
+}
+.items-land{
+    margin: 0px 30px;
+}
+.txt-land > h1{
+    font-size: 50px;
+    font-weight: 100;
+}
+.txt-land > p{
+    font-size: 35px;
+    margin-top: 20px;
+    text-align: center;
+}
+.name{
+
+    font-size: 57px;
+    color: #270303;
+    margin-left: 4px;
+    font-weight: 600;
+
+}
+.txt-land{
+    /* text-align: center; */
+    position: relative;
+    bottom: 20px;
+}
+/* .pakistan{
+    background-image: linear-gradient(90deg, #2e7a10, #2ac603);
+    background-color: #f3ec78;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+} */
