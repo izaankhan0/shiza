@@ -184,10 +184,14 @@ h2 > span{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .about-pic{
     width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .about-pic > img{
@@ -196,10 +200,12 @@ h2 > span{
 
 h3{
     font-size: 60px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     text-align: center;
 
 }
 .about-txt > p{
     text-align: center;
+    width: 70%;
+    font-size: 20px;
 }
