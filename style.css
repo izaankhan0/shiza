@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
-       
 }
 .container{
     height: 200vh;
@@ -171,4 +170,36 @@ h2 > span{
     pointer-events: none; /* Ensure the custom cursor doesn't interfere with other elements */
     user-select: none; /* Disable text selection for the custom cursor */
     transform: translate(-50%, -50%);
+}
+
+.about{
+    display: flex;
+    margin: 26vh 10vw;
+    justify-content: center;
+    height: auto;
+}
+
+.about-txt{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-pic{
+    width: 40%;
+
+}
+.about-pic > img{
+    width: 82%;
+}
+
+h3{
+    font-size: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+.about-txt > p{
+    text-align: center;
 }
