@@ -11,11 +11,13 @@
 body {
     background-color: #4b0000;
     color: #DAEFB3;
+    cursor: crosshair;
 }
 nav > ul{
     display: flex;
-    padding: 30px 0px;
+    padding: 20px 0px;
     align-items: center;
+    margin-left: 110px;
 
 }
 nav > ul > a > li{
@@ -27,7 +29,7 @@ nav > ul > a > li{
 
 }
 nav > ul > button{
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 500;
     padding: 13px 29px;
     border: solid 2px orangered;
@@ -48,7 +50,12 @@ nav > ul > a{
 nav{
     display: flex;
     justify-content: center;
-    margin-left: 110px;
+    position: sticky;
+    top: 0.0000000001px;
+    background-color: #4b0000;
+    /* background-color: ; */
+    z-index: 100;
+    transition: 0.2s linear;
 }
 
 
@@ -155,4 +162,13 @@ h2 > span{
 }
 .txt-land > button:hover{
     background-color: transparent;
+}
+
+/* Add this to your style.css file or wherever your styles are defined */
+.custom-cursor {
+    position: fixed;
+    font-size: 24px; /* Adjust the size of the heart */
+    pointer-events: none; /* Ensure the custom cursor doesn't interfere with other elements */
+    user-select: none; /* Disable text selection for the custom cursor */
+    transform: translate(-50%, -50%);
 }
