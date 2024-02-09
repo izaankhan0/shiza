@@ -5,7 +5,8 @@
     font-family: 'Ubuntu', sans-serif;
 }
 .container{
-    height: 200vh;
+    height: auto;
+    overflow: hidden;
 }
 body {
     background-color: #4b0000;
