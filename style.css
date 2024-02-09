@@ -5,37 +5,40 @@
     font-family: 'Ubuntu', sans-serif;
        
 }
+.container{
+    height: 200vh;
+}
 body {
-    background-color: #1C2826;
+    background-color: #4b0000;
     color: #DAEFB3;
 }
 nav > ul{
     display: flex;
-    padding: 30px ;
+    padding: 30px 0px;
     align-items: center;
 
 }
 nav > ul > a > li{
     list-style: none;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 500;
-    color: #DAEFB3;
+    color: #ffffff;
     transition: linear 100ms;
 
 }
 nav > ul > button{
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 500;
     padding: 13px 29px;
     border: solid 2px orangered;
     border-radius: 20px;
     background-color: transparent;
-    color: #DAEFB3;
+    color: #f4fbe6;
     font-family: 'Ubuntu', sans-serif;
     margin-left: 26px;
     cursor: pointer;
     transition: linear 100ms;
-
+    /* align-self: flex-end; */
 }
 nav > ul > a{
     text-decoration: none;
@@ -44,14 +47,13 @@ nav > ul > a{
 }
 nav{
     display: flex;
-    justify-content: flex-end;
-    margin-right: 110px;
+    justify-content: center;
+    margin-left: 110px;
 }
 
 
-/* Add this to your style.css file or wherever your styles are defined */
 .btn-1 {
-    transition: background-color 0.15s ease; /* Add a smooth transition effect */
+    transition: background-color 0.2s ease;
 }
 
 .btn-1:hover {
@@ -67,29 +69,33 @@ nav > ul > a :hover{
 .land{
     display: flex;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .items-land{
     width: 35%;
-    margin: 0px 20px;
+    margin: 0px 10px;
 }
 
 .image-land > img{
-    width: 86%;
+    width: 85%;
+    filter: brightness(0.9); /* Adjust the value to make it darker (0.7 is just an example) */
+
 }
 
 .txt-land{
     display: flex;
     flex-direction: column;
-    /* justify-content: center/; */
+    /* justify-content: center; */
+    align-items: center;
     margin-top: 70px;
     height: 60vh !important;
 }
 
 h1{
-    font-size: 56px;
+    font-size: 61px;
     font-weight: 400;
+    text-align: center;
 }
 
 .image-land{
@@ -99,9 +105,8 @@ h1{
 }
 
 .h1-1{
-    font-size: 33px;
+    font-size: 38px;
     font-weight: 500;
-
     color: orangered;
 }
 
@@ -113,7 +118,8 @@ h1{
 h2{
     padding: 13px 0px 21px 0px;
     font-weight: 300;
-    font-size: 28px;
+    font-size: 31px;
+    text-align: center;
 }
 
 h2 > span{
@@ -127,10 +133,12 @@ h2 > span{
 }
 
 .txt-land > p{
-    width: 90%;
+    width: 75%;
     font-weight: 400;
     /* padding-left: 3px; */
     margin-bottom: 38px;
+    text-align: center;
+    margin-top: 10px;
 }
 
 .txt-land > button{
