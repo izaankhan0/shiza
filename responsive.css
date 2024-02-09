@@ -1,44 +1,11 @@
 @media (max-width:1250px){
-    .txt-land > p{
-        text-align: left;
-    }
+    
 }
 
 @media (max-width:940px){
-    .land{
-        flex-direction: column;
-        justify-content: center;
-    }
-    .image-land > img{
-        width: 80%;
-        height: auto;
-    }
-    .image-land{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: auto;
-        margin-bottom: 30px;
-    }
-    .txt-land{
-        text-align: center;
-    }
-    h1{
-     font-size: 44px !important;   
-    }
-    .name{
-        font-size: 48px;
-    }
-    .txt-land > p{
-        text-align: center;
-    }
+    
 }
 
 @media (max-width:700px){
-    nav{
-        display: none;
-    }
-    .land{
-        margin-top: 100px;
-    }
+
 }
