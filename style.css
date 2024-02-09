@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;        
+    font-family: 'Ubuntu', sans-serif;
+       
 }
 body {
     background-color: #1C2826;
@@ -17,22 +18,24 @@ nav > ul{
 nav > ul > a > li{
     list-style: none;
     font-size: 17px;
-    font-weight: 600;
+    font-weight: 500;
     color: #DAEFB3;
     transition: linear 100ms;
 
 }
 nav > ul > button{
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 500;
     padding: 10px 25px;
     border: solid 2px orangered;
     border-radius: 20px;
     background-color: transparent;
     color: #DAEFB3;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     margin-left: 10px;
     cursor: pointer;
+    transition: linear 100ms;
+
 }
 nav > ul > a{
     text-decoration: none;
@@ -45,10 +48,19 @@ nav{
     margin-right: 130px;
 }
 
-nav > ul > button :hover{
-    color: white;
-    background-color: orangered !important;
+
+/* Add this to your style.css file or wherever your styles are defined */
+.btn-1 {
+    transition: background-color 0.15s ease; /* Add a smooth transition effect */
 }
+
+.btn-1:hover {
+    background-color: #ff4500; /* Set the background color to orange-red on hover */
+    color: #ffffff; /* Set your text color */
+
+}
+
+
 
 nav > ul > a :hover{
     color: orangered;
